@@ -49,7 +49,6 @@ var KS = false;
 var vX = 1;
 var vY = 1;
 elements.c_pixel_elec = {
-  conduct: 1,
     tick: function(pixel) {
     /*if (vX === 3) {
             vX --;
@@ -70,6 +69,7 @@ elements.c_pixel_elec = {
             tryMove (pixel,pixel.x,pixel.y+vY)
         }
     },
+    conduct: 1,
     category: "special",
     states:"solid",
     color:"#FFFFFF",
